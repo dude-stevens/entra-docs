@@ -62,7 +62,7 @@ To configure and test Microsoft Entra SSO with Evidence.com, perform the followi
 
 <a name='configure-azure-ad-sso'></a>
 
-## Configure Microsoft Entra SSO
+## Configure Microsoft Entra ID SSO
 
 Follow these steps to enable Microsoft Entra SSO.
 
@@ -76,13 +76,13 @@ Follow these steps to enable Microsoft Entra SSO.
 1. On the **Set up single sign-on with SAML** page, perform the following steps:
 
     1. In the **Sign on URL** text box, type a URL using the following pattern:
-    `https://<yourtenant>.evidence.com`
+    `https://organization.evidence.com`
 
     1. In the **Identifier (Entity ID)** text box, type a URL using the following pattern:
-    `https://<yourtenant>.evidence.com`
+    `https://organization.evidence.com`
 
     1. In the **Reply URL** textbox, type a URL using the following pattern: 
-    `https://<your tenant>.evidence.com/?class=UIX&proc=Login`
+    `https://organization.evidence.com/?class=UIX&proc=Login`
 
     > [!NOTE]
     > These values are not real. Update these values with the actual Sign on URL, Identifier and Reply URL. Contact [Evidence.com Client support team](https://my.axon.com/s/contactsupport) to get these values. You can also refer to the patterns shown in the **Basic SAML Configuration** section.
